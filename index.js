@@ -5,7 +5,7 @@ const cors = require('cors')
 
 app.use(cors())
 
-const PORT = 3001
+const PORT = process.env.PORT || 3001
 // sin expres
 // const app = http.createServer((res, req) => {
 //   req.writeHeade(200, {'Content-Type': 'text/plan'})

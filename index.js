@@ -32,9 +32,6 @@ let notes = [
     important: true
   }
 ]
-app.get('/', (req, res) => {
-  res.send('<h1>HELLO WORLD</h1>')
-})
 
 app.get('/api/products', (req, res) => {
   res.json(notes)

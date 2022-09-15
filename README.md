@@ -5,3 +5,5 @@ api en nodeJS
 * GET api/porudct/:id
 * POST api/products
 * DELETE api/product/:id
+
+*https://api-product.onrender.com/api/products
